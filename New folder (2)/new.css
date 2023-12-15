@@ -1,0 +1,134 @@
+
+.neeraj{
+  background-color: rgb(41, 38, 38);
+  height: 400px;
+  width: cover;
+  margin: none;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, section, footer {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #0088aa;
+  border-radius: 8px;
+  background-color: #a50d0d;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+div id {
+  background-image: url('n.jpg');
+  background-color: #a50d0d;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+div class{
+    background-color: black;
+}
+
+#skill{
+  color: black
+  font-weight: bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+button{
+  background-color: none;
+  color: black;
+  border-color: rgb(57, 55, 59);
+  box-sizing: 50px;
+  
+}
+
+ .neeraj {
+  background-image: url(n.jpg) 45px 45px;
+  background-repeat: no-repeat;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border: 5px lightblue;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 4%; height: 45%; }
+ }
+  
+  
+
+
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+  border-color: black; 
+}
+
+
+  .gb{
+    border-radius: 200px;
+    position: fixed;
+  }
+
+  div {
+    animation-name: kb;
+    animation-duration: 4s;
+  }
+.neerajdhiman{
+ padding: 500px;
+}
+
+#pricing{
+  background-color: aqua;
+  color: #a50d0d;
+}
